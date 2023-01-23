@@ -4,15 +4,203 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo html</title>
+    <title>Pagina Curriculum</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&family=Roboto+Mono:wght@100&family=Sofia+Sans:wght@100&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <h1>Titulo 1</h1>
-    <h2>Titulo 2</h2>
-    <h3>Titulo 3</h3>
-    <h4>Titulo 4</h4>
-    <h5>Titulo 5</h5>
-    <h6>Titulo 6</h6>
-    <p>Hola mundo!</p>
+    <!--Barra de navegación-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/img/logo mf.png" alt="" width="100px">MaFosDev
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#opiniones">Curriculum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#acerca_de">Acerca de</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Como hacer un CV
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                <form class="d-flex" >
+                    <button class="btn btn-outline-success" type="button">Registrarse</button>
+                    <button class="btn btn-outline-success" type="submit">Iniciar Sesion</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="acerca_de" id="acerca_de">
+        <h1 class="heading">Como crear tu propio CV</h1>
+        <div class="columna">
+            <div class="image">
+                <img src="img/auriculares_2.png" alt="" width="400px">
+            </div>
+            <div class="content">
+                <h3>Calidad de Software</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur nisi animi atque, sed illum, nobis voluptate ipsum laboriosam cumque, non pariatur. Incidunt enim voluptate sequi molestiae optio, quibusdam magnam inventore?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quasi vero, obcaecati ullam dicta maxime tempore, dolore modi praesentium nulla reiciendis doloremque consequatur excepturi, error minus enim nisi aliquid debitis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit accusantium corporis natus temporibus rerum vero, dolorem neque, adipisci consectetur est voluptatem ipsa sequi atque dolor? Numquam ut nam ex quo.</p>
+
+                <div class="bottons">
+                    <a class="btn btn-outline-dark" href="#" role="button">Boton 1</a>
+                    <a class="btn btn-outline-dark" href="#" role="button">Boton 2</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    
+    <section class="detalles" id="detalles">
+        <h1 class="heading">Temas</h1>
+        <div class="caja-contenedor">
+            <div class="caja">
+                <img src="img/chica.jpg" alt="" width="400px">
+                <h3>Mujer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laborum ducimus, est odit quasi aspernatur? Quae, voluptas saepe quidem sunt repellat nisi perferendis sed obcaecati voluptatem. Dolorum suscipit laboriosam quis.</p>
+            </div>
+            <div class="caja">
+                <img src="img/hombre.jpg" alt="" width="400px">
+                <h3>Hombre</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laborum ducimus, est odit quasi aspernatur? Quae, voluptas saepe quidem sunt repellat nisi perferendis sed obcaecati voluptatem. Dolorum suscipit laboriosam quis.</p>
+            </div>
+            <div class="caja">
+                <img src="img/hombre2.jpg" alt="" width="400px">
+                <h3>Hombre 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laborum ducimus, est odit quasi aspernatur? Quae, voluptas saepe quidem sunt repellat nisi perferendis sed obcaecati voluptatem. Dolorum suscipit laboriosam quis.</p>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="opiniones" id="opiniones">
+        <h1 class="heading">Curriculum VITAE</h1>
+        <div class="curriculum">
+            <div class="sobremi me-auto">
+                <div class="caja">
+                    
+                    <img src="img/chica.jpg" alt="" width="400px">
+                    
+                    <div class="text col-md-9">
+                        <h3>Sobre mi</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laborum ducimus, est odit quasi aspernatur? Quae, voluptas saepe quidem sunt repellat nisi perferendis sed obcaecati voluptatem. Dolorum suscipit laboriosam quis.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, fuga aspernatur. Magni debitis ex cupiditate? Cumque et sunt, eligendi dolore dicta quae laboriosam voluptatibus accusantium, similique non magnam, laborum quod!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dignissimos, asperiores doloremque earum alias quo sapiente quasi veniam? Impedit laboriosam tenetur quae perferendis maxime distinctio amet, laudantium facilis. Inventore, earum!</p>
+                    </div>
+                </div>
+                <div class="caja2 text-center">
+                    <h3>Redes sociales</h3>
+                    <p>Facebook</p>
+                    <p>Instagram</p>
+                </div>
+            </div>
+            <div class="general ml-auto">
+                <div class="personal">
+                    <h3>Datos personales</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laborum ducimus, est odit quasi aspernatur? Quae, voluptas saepe quidem sunt repellat nisi perferendis sed obcaecati voluptatem. Dolorum suscipit laboriosam quis.</p>
+                </div>
+                <div class="experience">
+                    <h3>Experiencia</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dicta optio facilis ex, sed magnam. Saepe illo dolor quis temporibus, aliquam provident. Earum atque nobis placeat, perspiciatis deleniti autem amet.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores hic consequuntur excepturi non. Molestias deserunt velit, dolore voluptate amet quisquam, inventore voluptas id omnis sapiente necessitatibus nostrum fuga, esse quidem?</li>
+                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis ex voluptatem perferendis dicta? Incidunt placeat fuga odio ducimus quidem quam? Rem atque dignissimos dolore odit non deleniti voluptatum consectetur officia.</li>
+                    </ul>
+                </div>
+                <div class="estudy">
+                    <h3>Estudios</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam adipisci dolores voluptatibus consequuntur saepe molestiae. Repudiandae facilis possimus ullam sapiente reiciendis aliquam natus totam, voluptates illo ea, veniam, quia cum.</p>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    
+    <div class="suscribete">
+        <h3>Suscribete para tener más novedades</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi nihil vitae provident dolor quae recusandae rem laudantium magni a quos facere porro nemo eveniet non, reiciendis nostrum ad quaerat reprehenderit!</p>
+        <form action="">
+            <input type="email" placeholder="ingresa tu email">
+            <input type="submit" value="Suscribete">
+        </form>
+    </div>
+    <footer>
+        <div class="footer">
+        <div class="caja-contenedor">
+            <div class="caja">
+                <img src="/img/logo mf.png" alt="">
+                <h3>Noticias e informacion</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus in obcaecati sunt facere unde alias delectus sit voluptatem eveniet cumque, dicta ad, maiores molestias? Saepe dolore illum assumenda nulla nostrum.</p>
+                
+            </div>
+            <div class="caja">
+                <div class="busca">
+                <h3>Buscanos en</h3>
+                <a href="https://www.facebook.com/profile/">Facebook</a>
+                <a href="">Instagram</a>
+                <a href="">Twitter</a>
+                <a href="">LinkedIn</a>
+                </div>
+            </div>
+
+
+            <div class="caja">
+                <h3>Mas informacion</h3>
+                <div class="info">
+                    <div class="icono"><i class="fas fa-phone"></i></div>
+                    
+                    
+                    <p>3624-657352 <br>783-2435-345</p>
+                </div>
+                <div class="info">
+                    <div class="icono"><i class="fas fa-envelope"></i></div>
+                    
+                    <span class="fa-solid fa-user"></span>
+                    <p>mafosdev@gmail.com <br>matisandoval.97@gmail.com</p>
+                </div>
+                <div class="info">
+                    <div class="icono"><i class="fas fa-map-marker-alt"></i></div>
+                    
+                    <p>Chaco, Argentina <br>1232345346</p>
+                </div>
+            </div>
+        </div>
+        <h1 class="creditos">Copyright @ 2023 MaFosDev</h1>
+        </div>
+    </footer>
+
+
+
+   
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    
 </body>
 </html>

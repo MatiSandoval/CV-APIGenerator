@@ -1,5 +1,5 @@
 *{
-    color:blue;
+    background-color:blue;
 }
 
 p{
@@ -39,6 +39,12 @@ section{
     font-weight: bold;
     color: lightblue;
 
+}
+
+#boton{
+    background-color: blue;
+    color: aliceblue;
+    border-color: red;
 }
 
 
