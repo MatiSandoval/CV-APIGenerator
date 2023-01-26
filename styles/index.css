@@ -11,24 +11,50 @@ html{
   body {
     font-size: .8rem;
   }
-  .acerca_de .columna .content .bottons a{
-    width: 100%;
-    text-align: center;
-  }
-  .acerca_de .columna .content .bottons a:last-child{
-    margin: 1rem 0;
-  }
+  
   .suscribete p{
     width: auto;
     font-size: 1rem;
     
   }
-  .opiniones .curriculum .sobremi{
-    font-size: 10px;
+  .opiniones h1{
+    font-size: 3rem;
+  }
+  .opiniones {
+    position: relative;
+    left:3rem;
+  }
+  .opiniones .curriculum p li{
+    font-size: .7rem;
     
     
   }
+  .opiniones #boton-recargar{
+    position:relative;
+    right:10rem;
+  }
+  .opiniones .curriculum .sobremi{
+    
+  }
   .opiniones .curriculum .general{
+    position: relative;
+    left: 1rem;
+    
+  }
+  .opiniones .curriculum .general li{
+    font-size: .7rem;
+  }
+  .opiniones .curriculum .sobremi #imgContainer{
+    position:relative;
+    right:5rem;
+  }
+  .opiniones .curriculum .sobremi .caja2 .ic p{
+    font-size: .8rem;
+    
+    
+  }
+  
+  .opiniones .curriculum .general .caja2{
     font-size: 10px;
     
   }
@@ -39,26 +65,53 @@ html{
   body {
     font-size: 1.2rem;
   }
+
   h1.title {
     font-size: 2.5rem;
   }
-  .acerca_de{
-    background-position: right;
+  .acerca_de .heading{
+    width: 23rem;
+    font-size: 2rem;
+    position:relative;
+    right: 7rem;
+  }
+  .acerca_de .columna .image{
+    position:relative;
+    right: 40px;
+    bottom: 60px;
+  }
+  .acerca_de .columna .content{
+    position:relative;
+    left:1rem;
+  }
+  .acerca_de .columna .content p{
+    font-size: 300rem;
   }
   .suscribete p{
     width: auto;
     font-size: 1.2rem;
   }
-  .opiniones .curriculum .sobremi{
-    width: 10px;
-    height: 10px;
-  }
-  .opiniones .curriculum p{
-    font-size: 15px;
+  .opiniones .curriculum .sobremi .caja{
+    font-size: 12px;
+    padding-right: 5rem;
+    
     }
-    .opiniones .curriculum img{
-      width: 250px;
+    .opiniones .curriculum .general p{
+      font-size: 12px;
+      
+      }
+    .opiniones .curriculum .sobremi .caja2{
+      padding-right: 3rem;
+      
+    }
+    .opiniones .curriculum .sobremi .caja2 p{
+      
+      font-size: 15px;
+    }
+    .opiniones .curriculum #imgContainer{
+      width: 100px;
       height: 200px;
+      padding-right: 15rem;
       }
   
     .opiniones .curriculum li{
@@ -78,7 +131,24 @@ html{
   .suscribete p{
     width: auto;
    }
-  
+   .acerca_de .heading{
+    width: 23rem;
+    font-size: 3rem;
+    position:relative;
+    left: 3rem;
+  }
+   .opiniones .curriculum .sobremi{
+    font-size: 1.2rem;
+    width: 30px;
+    height: 50px;
+    margin-left: 10px;
+    
+  }
+  .acerca_de .columna .image{
+    position:relative;
+    right: 40px;
+    bottom: 60px;
+  }
   
 }
 
@@ -98,7 +168,11 @@ html{
     width: 50px;
     height: 50px;
   }
-  
+  .acerca_de .columna .image{
+    position:relative;
+    right: 40px;
+    bottom: 60px;
+  }
   
 }
 .home{
@@ -134,6 +208,7 @@ section{
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: 20rem;
 }
 
 .detalles .caja-contenedor .caja{
@@ -147,22 +222,58 @@ section{
   border-radius: .5rem;
   text-align: center;
   transition: .2s linear;
+  width: 30rem;
+  height: 45rem;
+  border-color: black;
+  border-width: 1rem;
 }
 
 .detalles .caja-contenedor .caja img{
-  height: 15rem;
+  height: 25rem;
+  width: 30rem;
 }
 
 .detalles .caja-contenedor .caja h3{
   font-size: 2rem;
   color: #333;
   padding-top: 1rem;
+  margin-top: 10rem;
+}
+.detalles .video h1{
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+.detalles .video iframe{
+  width: 80rem;
+  height: 50rem;
+  position: relative;
+  left: 18rem;
 }
 
-.detalles .caja-contenedor .caja p{
-  font-size: 1.3rem;
-  color:#666;
-  padding:1rem 0;
+.opiniones #boton-color{
+  text-transform: uppercase;
+  margin-left: 80px;
+}
+.opiniones #boton-colorletra{
+  text-transform: uppercase;
+  margin-left: 80px;
+}
+.opiniones #boton-color2{
+  text-transform: uppercase;
+  margin-left: 80px;
+}
+.opiniones #boton-colorletra2{
+  text-transform: uppercase;
+  margin-left: 80px;
+}
+.opiniones #boton-recargar{
+  text-transform: uppercase;
+  margin-left: 300px;
+}
+.opiniones {
+  background-color: rgb(255, 255, 255);
 }
 .opiniones .curriculum{
   display: flex;
@@ -201,7 +312,10 @@ section{
 .opiniones .curriculum .general .personal{
   margin-left: 0px;
   margin-top: 10px;
+  text-align: left;
+  position:static;
 }
+
 .opiniones .curriculum .sobremi .caja {
   margin-bottom: 2rem;
   margin-left: 3rem;
@@ -217,20 +331,37 @@ section{
 }
 .opiniones .curriculum .sobremi .caja2{
   margin-bottom: 10rem;
+  font-size: 1.4rem;
+  margin-top: 150px;
 }
-.opiniones .curriculum .sobremi .caja2 p{
+.opiniones .curriculum .sobremi .caja2 .ic{
+  text-align: center;
+}
+.opiniones .curriculum .sobremi .caja2 h3{
+  font-size: 2rem;
+  text-transform: uppercase;
   text-align: left;
   margin-left: 3rem;
 }
-.opiniones .curriculum .sobremi img{
-  margin-left: 5rem;
+.opiniones .curriculum .sobremi .caja2 .ic p{
+  text-align: center;
+  margin-left: 0;
+}
+.opiniones .curriculum .sobremi .caja #imgContainer img{
+  margin-left: 7rem;
   border-radius: 10rem;
+  width: 200px;
+  height: 200px;
+  
 }
 .acerca_de{
   background: url(../img/fondo_2.png) no-repeat;
   background-size: cover;
   background-position: center;
   padding-bottom: 3rem;
+}
+.acerca_de .heading{
+ margin-left: 10rem;
 }
 .acerca_de .columna {
   display: flex;
@@ -242,10 +373,14 @@ section{
 
 .acerca_de .columna .image {
   flex: 1 1 40rem;
+  position:relative;
+  
+  top:3.7rem;
 }
 
 .acerca_de .columna .image img {
-  width: 100%;
+  width: 80%;
+  
 }
 
 .acerca_de .columna .content {
@@ -261,9 +396,7 @@ section{
   padding: 1rem 0;
 }
 
-.acerca_de .columna .content .bottons a:last-child{
-  margin-left: 2rem;
-}
+
 .suscribete{
   text-align: center;
   padding: 5rem 1rem;
@@ -293,7 +426,7 @@ section{
   margin: 2rem auto;
   height: 5.5rem;
 }
-.suscribete form input[type="email"]{
+.suscribete form input[type="form"]{
   padding: 0 2rem;
   font-size: 1.7rem;
   background: none;
@@ -304,7 +437,7 @@ section{
   border: none;
   border-radius: 4rem;
 }
-.suscribete form input[type="email"]::placeholder{
+.suscribete form input[type="form"]::placeholder{
   color:whitesmoke;
   text-transform: capitalize;
 }
