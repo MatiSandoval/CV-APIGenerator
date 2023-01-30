@@ -1,6 +1,8 @@
 /** APIS
  * https://random-data-api.com/api/users/random_user?size=3
- * 
+ * https://randomuser.me/api/
+ * Utilizo una para todos los datos de la persona y otra
+ * para su experiencia laboral y una habilidad de trabajo
  */
 let genero ="";
 let imag="";

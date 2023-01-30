@@ -1,7 +1,6 @@
 body{
   background: none;
   font-size: 16px;
- 
   font-family: 'Raleway', sans-serif;
 }
 html{
@@ -17,6 +16,31 @@ html{
     font-size: 1rem;
     
   }
+  .detalles h1{
+    font-size: 2rem;
+  }
+  .detalles {
+    width: auto;
+  }
+  
+  body .detalles .caja-contenedor .caja{
+    width: 350px;
+    height: 700px;
+  }
+  body .detalles .caja-contenedor .caja img{
+    width: 250px;
+    height: 400px;
+    
+  }
+  body .detalles .video h1{
+    font-size: 2rem;
+  }
+  body .detalles .video iframe{
+    width: 350px;
+    height: 300px;
+    position:relative;
+    left: auto;
+  }
   .opiniones h1{
     font-size: 3rem;
   }
@@ -26,15 +50,10 @@ html{
   }
   .opiniones .curriculum p li{
     font-size: .7rem;
-    
-    
   }
   .opiniones #boton-recargar{
     position:relative;
     right:10rem;
-  }
-  .opiniones .curriculum .sobremi{
-    
   }
   .opiniones .curriculum .general{
     position: relative;
@@ -69,11 +88,28 @@ html{
   h1.title {
     font-size: 2.5rem;
   }
-  .acerca_de .heading{
-    width: 23rem;
+  
+  body .acerca_de .heading{
     font-size: 2rem;
-    position:relative;
-    right: 7rem;
+    left: -9rem;
+
+  }
+  body .acerca_de h3{
+    
+    left: -9rem;
+    text-align: center;
+
+  }
+  body .acerca_de .columna .content h3{
+    font-size: 2rem;
+  }
+  body .acerca_de .columna .content p{
+    font-size: 1rem;
+  }
+  body .acerca_de .columna .image{
+    position: relative;
+    right: 2rem;
+    top: -2rem;
   }
   .acerca_de .columna .image{
     position:relative;
@@ -117,6 +153,7 @@ html{
     .opiniones .curriculum li{
       font-size: 15px;
       }
+      
 }
 
 @media screen and (max-width: 992px)  {
